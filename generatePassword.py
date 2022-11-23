@@ -15,12 +15,14 @@ while True:
     2  exit'''))
 
     if(inp == 1):
+        inn=int(input("enter password length :"))
 
-        for i in range(inp):
+        for i in range(inn):
             l.append(random.choice(ss))
         l="".join(l)
         print(l)
     elif(inp == 2):
+        print("successfully exit")
         break
     else:
         print("invalid number")
