@@ -14,6 +14,7 @@ for i in range(inp):
     l.append(random.choice(ss))
 l="".join(l)
 print(l)
+print("password Generate")
 
 
 
